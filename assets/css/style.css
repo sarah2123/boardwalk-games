@@ -101,6 +101,14 @@ h2 {
     border: none;
 }
 
+/* Events */
+
+.custom-button-student {
+    background-color: var(--highlight-color);
+    color: white;
+    border-radius: 0;
+}
+
 /* Footer / contact */
 
 #contact {
@@ -138,6 +146,13 @@ h2 {
 }
 
 /* Media queries */
+
+/* xs devices (tablets. 375px and down */
+@media screen and (max-width: 375px) {
+    #events .table {
+        font-size: 0.7rem;
+    }
+}
 
 /* Medium devices (tablets. 768px and up */
 @media screen and (min-width: 768px) {
